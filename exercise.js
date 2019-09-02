@@ -1,7 +1,7 @@
 var bankAccount = {
     money: 2000,
     deposit: function (value) {
-        return (this.money += value);
+        this.money += value;
     }
 };
 var myself = {
